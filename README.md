@@ -17,12 +17,12 @@ npm install && npm run dev
 ```
 3. Create a new database with Your desired name and update following information inside .env file by your setup:
 ```
-DB_CONNECTION=mysql
+DB_CONNECTION=mysql    <-
 DB_HOST=127.0.0.1     
 DB_PORT=3306          
-DB_DATABASE={laraveldb} 
-DB_USERNAME={root}    
-DB_PASSWORD={rootpsw}   
+DB_DATABASE=laraveldb  <- your db schema name
+DB_USERNAME=root       <- your username
+DB_PASSWORD=mysql      <- your password
 ```
 4. Now You can extract this repository files inside your directory and accept with all changes.
 
