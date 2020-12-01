@@ -1,4 +1,4 @@
-## Blog app
+## TravelApp
 ### Setup
 
 1. Open CMD and type:
